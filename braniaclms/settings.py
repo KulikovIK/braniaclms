@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-y*h(5l20b)7@gl1*=7)=*r45oo-jkl25lvk-3+8yrz%zxh@@cz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -53,7 +53,7 @@ ROOT_URLCONF = 'braniaclms.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/templates/'],
+        'DIRS': ['./mainapp/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -114,7 +114,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
