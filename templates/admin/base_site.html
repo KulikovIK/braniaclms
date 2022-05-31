@@ -1,0 +1,17 @@
+<!-- Наследование от базового шоблона админки -->
+{% extends 'admin/base.html' %}
+{% load static %}
+
+{% block branding %}
+    <h1>
+        <a href="{% url 'admin:index' %}">
+            <img src="{% static 'img/logo.png' %}">
+        </a>
+    </h1>
+{% endblock %}
+
+{% block welcome-msg %}
+<!--Добавляем своё приветствие-->
+    Message!!
+    {{ block.super }}
+{% endblock %}
