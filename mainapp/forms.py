@@ -27,5 +27,5 @@ class CourseFeedbackForm(forms.ModelForm):
 
         if course and user:
             # Процесс задания переменных для инициализации формы
-            self.fields['course'].intial = course.pk
-            self.fields['user'].intial = user.pk
+            self.fields['course'].initial = course.pk
+            self.fields['user'].initial = user.pk
