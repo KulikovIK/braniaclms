@@ -1,9 +1,12 @@
 from http import HTTPStatus
 
+from django.core import mail
+
 from authapp.models import CustomUser as User
 from django.test import TestCase, Client
 from django.urls import reverse
 
+from mainapp import tasks
 from mainapp.models import News
 
 
@@ -127,4 +130,22 @@ class NewsTestCase(TestCase):
         news_obj.refresh_from_db()
 
         self.assertTrue(news_obj.deleted)
+
+class MailSendTest(TestCase):
+
+    def setUp(self) -> None:
+        auth_url = reverse('authapp:login')
+        User.objects.create_user(username='django1', password='123')
+        self.client = Client()
+        self.client.post(
+            auth_url,
+            {'username': 'django1', 'password': '123'}
+        )
+
+    def test_mail_send(self):
+        message_text = 'test_message'
+        user_id = User.objects.first()
+        tasks.send_feedback_to_email(message_from=user_id.id, message_body=message_text)
+
+        self.assertEqual(mail.outbox[0].body, message_text)
 
