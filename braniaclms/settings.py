@@ -55,6 +55,8 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    # Обработка интернационализации
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -117,11 +119,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'     # задает "домашнюю" языковую зону
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'UTC'           # задает "домашнее" время
 
-USE_I18N = True
+USE_I18N = True             # дает возможность использовать интренацианализацию
 
 USE_TZ = True
 
@@ -175,6 +177,13 @@ CELERY_BROKER_URL = 'redis://127.0.0.1:6379'
 CELERY_RESULT_BACKEND = 'redis://127.0.0.1:6379'
 
 # Отправка сообщений в реальных проектах(настройки указываются в документации sntp-сервера)
+# Настройка позволяет выслать 500-е ошибки на указанный адрес при DEBUG = False
+# Используй!
+
+# ADMINS = (
+#     ('myemail@email.com', 'ilya')
+# )
+
 # EMAIL_HOST = 'sntp.yandex.ru'
 # EMAIL_PORT = 465
 # EMAIL_HOST_USER = 'myname@yandex.ru'
@@ -214,3 +223,6 @@ EMAIL_FILE_PATH = 'emails-tmp'
 #         },
 #     },
 # }
+# Определение путей для локализаций
+# затем в консоли python3 manage.py makemessages -l ru -i venv
+LOCALE_PATHS = [BASE_DIR / 'locale']

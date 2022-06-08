@@ -21,6 +21,9 @@ from django.views.generic import RedirectView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # Подключение интернационализации
+    path('i18n/', include('django.conf.urls.i18n')),
+
     path('', RedirectView.as_view(url='mainapp/')),
     path('mainapp/', include('mainapp.urls'), name="mainapp"),
     path('authapp/', include('authapp.urls'), name="authapp"),

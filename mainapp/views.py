@@ -19,7 +19,7 @@ class MainPageView(TemplateView):
 
 class NewsListView(ListView):
     model = News
-    paginate_by = 5
+    paginate_by = 2     # Число выводимых "строк" на страницу
 
     def get_queryset(self):
         return super().get_queryset().filter(deleted=False)
@@ -77,6 +77,10 @@ class CourseDetailView(TemplateView):
                 user=self.request.user,
                 course=context_data['course_object'],
             )
+        # свой пагинатор
+        # from django.core.paginator import Paginator
+        # paginator = Paginator(context_data['feedback_list'], 2) # данные и количество записей на страницу
+        # paginator.page(2)   # номер страницы
 
         return context_data
 

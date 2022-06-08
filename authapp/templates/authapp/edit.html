@@ -1,5 +1,6 @@
 {% extends 'mainapp/base.html' %}
-{% load crispy_forms_tags %}
+{% load crispy_forms_tags i18n %}
+<!-- Подключена библиотека i18n -->
 {% block content %}
 
 <form class="col-6 m-auto pt-5 pb-5" method="post" enctype="multipart/form-data">
@@ -8,8 +9,9 @@
     {{ form|crispy }}
 
     <p>
-        <button type="submit"
-                class="btn btn-primary btn-block">Сохранить
+        <button type="submit" class="btn btn-primary btn-block">
+            <!-- Интернационализация слова "save" -->
+            {% translate 'save' %}
         </button>
     </p>
 </form>

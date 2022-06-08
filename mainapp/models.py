@@ -7,7 +7,7 @@ NULLABLE = {'blank': True, 'null': True}
 class BaseModel(models.Model):
     created = models.DateTimeField(auto_now_add=True, editable=True, verbose_name='Created at')
     updated = models.DateTimeField(auto_now=True, editable=True, verbose_name='Updated at')
-    deleted = models.BooleanField(default=True)
+    deleted = models.BooleanField(default=False)
 
     class Meta:
         abstract = True
@@ -23,7 +23,7 @@ class DataManager(models.Manager):
 
 
 class News(BaseModel):
-    # objects = DataManager()
+    objects = DataManager()
 
     title = models.CharField(max_length=256, verbose_name='Title')
     preambule = models.CharField(max_length=1024, verbose_name='Preambule')
