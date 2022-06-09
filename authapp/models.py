@@ -3,7 +3,7 @@ from time import time
 
 from django.contrib.auth.models import AbstractUser
 from django.db import models
-
+from django.utils.translation import gettext_lazy as _
 from mainapp.models import NULLABLE
 
 
@@ -16,9 +16,9 @@ def user_avatars_path(instance, filename):
 
 
 class CustomUser(AbstractUser):
-    email = models.EmailField(**NULLABLE, verbose_name='email address')
-    age = models.PositiveIntegerField(**NULLABLE, verbose_name='age')
-    avatar = models.ImageField(upload_to=user_avatars_path, **NULLABLE)
+    email = models.EmailField(**NULLABLE, verbose_name=_('email'), unique=True)
+    age = models.PositiveIntegerField(**NULLABLE, verbose_name=_('age'))
+    avatar = models.ImageField(upload_to=user_avatars_path, **NULLABLE, verbose_name=_('avatar'))
 
     class Meta:
         verbose_name = 'Пользователь'
