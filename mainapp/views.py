@@ -1,6 +1,6 @@
+from django.shortcuts import redirect, get_object_or_404
 from django.views.generic import TemplateView
-from datetime import datetime
-from django.shortcuts import redirect
+from mainapp import models as mainapp_models
 
 
 class MainPageView(TemplateView):
@@ -11,17 +11,17 @@ class NewsPageView(TemplateView):
     template_name = "mainapp/news.html"
 
     def get_context_data(self, **kwargs):
-
         context = super().get_context_data(**kwargs)
+        context["news_qs"] = mainapp_models.News.objects.all()[:5]
+        return context
 
-        context["news_title"] = "Громкий заголовок"
 
-        context["news_preview"] = "Не очень громкое содержание"
+class NewsPageDetailView(TemplateView):
+    template_name = "mainapp/news_detail.html"
 
-        context["datetime_obj"] = datetime.now()
-
-        context["range"] = range(5)
-
+    def get_context_data(self, pk=None, **kwargs):
+        context = super().get_context_data(pk=pk, **kwargs)
+        context["news_object"] = get_object_or_404(mainapp_models.News, pk=pk)
         return context
 
 
@@ -45,7 +45,6 @@ class NewsWithPaginatorView(TemplateView):
     template_name = "mainapp/news.html"
 
     def get_context_data(self, page, **kwargs):
-
         context = super().get_context_data(page=page, **kwargs)
 
         context["page_num"] = page
@@ -54,5 +53,6 @@ class NewsWithPaginatorView(TemplateView):
 
 
 def search(request):
-    print(request.GET['param1'])
-    return redirect(f"https://yandex.ru/search/?text={request.GET['param1']}")
+    query = request.GET.get('param1')
+    if query:
+        return redirect(f"https://yandex.ru/search/?text={query}")

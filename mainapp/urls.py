@@ -11,6 +11,7 @@ urlpatterns = [
     path('courses/', views.CoursesListPageView.as_view(), name="courses"),
     path('doc_site/', views.DocSitePageView.as_view(), name="doc_site"),
     path('news/', views.NewsPageView.as_view(), name="news"),
+    path('news/<int:pk>/', views.NewsPageDetailView.as_view(), name="news_detail"),
     path("news/<int:page>/", views.NewsWithPaginatorView.as_view(), name="news_paginator"),
     path('login/', views.LoginPageView.as_view(), name="login"),
     path('search/', views.search, name="search")
