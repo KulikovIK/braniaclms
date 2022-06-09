@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'markdownify.apps.MarkdownifyConfig',
+    'social_django',
+    'authapp',
     'mainapp',
     'seeding',
 ]
@@ -64,6 +66,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect',
             ],
         },
     },
@@ -129,3 +134,21 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SEEDING_DIR = "mainapp/seeding"
+
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = BASE_DIR / 'media'
+
+AUTH_USER_MODEL = 'authapp.CustomUser'
+LOGIN_REDIRECT_URL = 'mainapp:main_page'
+LOGOUT_REDIRECT_URL = 'mainapp:main_page'
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+
+AUTHENTICATIONS_BACKENDS = (
+    'social_core.backends.github.GithubOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
+)
+
+SOCIAL_AUTH_GITHUB_KEY = '62430eb53f96e3cd220b'
+SOCIAL_AUTH_GITHUB_SECRET = '015e0ee81ca59ceed76cbd377883c2d015d2912e'
