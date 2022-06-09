@@ -1,0 +1,385 @@
+[2022-06-05 12:05:16,268] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:06:04,581] INFO django.server (187) "GET /mainapp/courses/ HTTP/1.1" 200 6927
+[2022-06-05 12:06:04,727] WARNING django.server (187) "GET /static/no_image.svg HTTP/1.1" 404 1795
+[2022-06-05 12:10:45,730] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:10:46,477] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:10:57,213] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:10:58,097] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:11:44,477] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:11:45,363] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:13:40,294] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:13:41,214] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:14:56,134] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:14:57,109] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:15:24,102] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:15:25,021] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:16:20,621] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:16:21,457] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:16:31,096] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:16:31,890] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:16:55,891] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:16:56,812] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:17:07,485] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:17:08,261] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:17:27,065] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:17:27,960] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:18:23,628] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:18:24,429] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:18:39,225] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:18:39,995] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:18:46,500] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:18:47,387] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:19:48,234] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:19:49,109] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:20:46,840] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:20:47,751] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:21:08,749] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:21:09,482] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:22:58,212] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/urls.py changed, reloading.
+[2022-06-05 12:22:59,094] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:23:18,020] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/urls.py changed, reloading.
+[2022-06-05 12:23:19,014] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:23:36,246] WARNING django.request (241) Not Found: /logs/
+[2022-06-05 12:23:36,246] WARNING django.server (187) "GET /logs/ HTTP/1.1" 404 2650
+[2022-06-05 12:23:59,141] ERROR django.request (241) Internal Server Error: /mainapp/logs/
+Traceback (most recent call last):
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblok'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'endblok', expected 'endblock'. Did you forget to register or load this tag?
+[2022-06-05 12:23:59,143] ERROR django.server (187) "GET /mainapp/logs/ HTTP/1.1" 500 161097
+[2022-06-05 12:24:13,994] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 6014
+[2022-06-05 12:25:07,805] ERROR django.request (241) Internal Server Error: /mainapp/logs/
+Traceback (most recent call last):
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/engine.py", line 176, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/engine.py", line 158, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 854, in do_for
+    nodelist_loop = parser.parse(
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+[2022-06-05 12:25:07,807] ERROR django.server (187) "GET /mainapp/logs/ HTTP/1.1" 500 178170
+[2022-06-05 12:25:23,140] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 29175
+[2022-06-05 12:28:44,380] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 30566
+[2022-06-05 12:29:42,706] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 12197
+[2022-06-05 12:29:42,990] INFO django.server (187) "GET /static/img/promo001.jpg HTTP/1.1" 200 69037
+[2022-06-05 12:29:45,240] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 12197
+[2022-06-05 12:29:48,052] INFO django.server (187) "GET /mainapp/courses/ HTTP/1.1" 200 6927
+[2022-06-05 12:29:48,227] WARNING django.server (187) "GET /static/no_image.svg HTTP/1.1" 404 1795
+[2022-06-05 12:29:50,332] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 31434
+[2022-06-05 12:30:03,251] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 31577
+[2022-06-05 12:31:08,854] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:31:09,629] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:31:24,514] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:31:25,486] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:32:22,032] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:32:22,944] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:33:46,246] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:33:47,178] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:34:00,532] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 33228
+[2022-06-05 12:34:07,591] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 33371
+[2022-06-05 12:34:08,995] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 33514
+[2022-06-05 12:34:15,919] INFO django.server (187) "GET /authapp/logout/ HTTP/1.1" 302 0
+[2022-06-05 12:34:15,943] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 11196
+[2022-06-05 12:34:18,372] INFO django.server (187) "GET /authapp/login/ HTTP/1.1" 200 2786
+[2022-06-05 12:34:22,956] INFO django.server (187) "POST /authapp/login/ HTTP/1.1" 302 0
+[2022-06-05 12:34:22,983] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 12054
+[2022-06-05 12:34:31,626] INFO django.server (187) "GET /authapp/login/ HTTP/1.1" 200 2786
+[2022-06-05 12:34:42,896] WARNING django.request (241) Forbidden (Permission denied): /mainapp/logs/
+Traceback (most recent call last):
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 134, in dispatch
+    return self.handle_no_permission()
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 48, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+[2022-06-05 12:34:42,908] WARNING django.server (187) "GET /mainapp/logs/ HTTP/1.1" 403 135
+[2022-06-05 12:35:44,574] INFO django.server (187) "GET /authapp/logout/ HTTP/1.1" 302 0
+[2022-06-05 12:35:44,603] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 11196
+[2022-06-05 12:35:46,892] INFO django.server (187) "GET /authapp/login/ HTTP/1.1" 200 2786
+[2022-06-05 12:35:50,198] INFO django.server (187) "POST /authapp/login/ HTTP/1.1" 302 0
+[2022-06-05 12:35:50,241] INFO django.server (187) "GET /mainapp/ HTTP/1.1" 200 12197
+[2022-06-05 12:36:19,422] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 37341
+[2022-06-05 12:37:47,285] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 37568
+[2022-06-05 12:38:42,125] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/urls.py changed, reloading.
+[2022-06-05 12:38:42,900] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:38:50,557] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/urls.py changed, reloading.
+[2022-06-05 12:38:51,360] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:39:03,139] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/urls.py changed, reloading.
+[2022-06-05 12:39:03,906] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:39:26,762] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:39:27,730] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:39:38,411] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:39:39,256] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:39:48,846] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:39:49,607] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:40:17,564] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:40:18,272] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:40:31,072] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:40:31,799] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:40:52,865] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:40:53,750] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:41:17,649] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:41:18,566] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:41:37,491] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:41:38,373] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:41:48,076] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:41:48,955] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:41:54,574] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:41:55,634] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:42:10,531] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:42:11,317] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:43:22,933] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 43008
+[2022-06-05 12:43:24,427] ERROR django.server (187) "GET /mainapp/logs/download/ HTTP/1.1" 500 59
+[2022-06-05 12:44:14,400] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 12:44:15,193] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 12:44:18,855] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 43678
+[2022-06-05 12:44:19,773] INFO django.server (187) "GET /mainapp/logs/download/ HTTP/1.1" 200 26823
+[2022-06-05 12:45:57,934] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 44107
+[2022-06-05 12:46:13,240] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 44213
+[2022-06-05 12:46:23,923] INFO django.server (187) "GET /mainapp/courses/ HTTP/1.1" 200 7024
+[2022-06-05 12:46:24,147] WARNING django.server (187) "GET /static/no_image.svg HTTP/1.1" 404 1795
+[2022-06-05 12:46:27,242] INFO django.server (187) "GET /mainapp/logs/download/ HTTP/1.1" 200 27297
+[2022-06-05 12:46:42,260] ERROR django.request (241) Internal Server Error: /mainapp/news/
+Traceback (most recent call last):
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 208, in render
+    return template.render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 177, in render
+    return self._render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 542, in render
+    return self.nodelist.render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logs' not found. 'logs' is not a valid view function or pattern name.
+[2022-06-05 12:46:42,263] ERROR django.server (187) "GET /mainapp/news/ HTTP/1.1" 500 241661
+[2022-06-05 12:46:58,436] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 11649
+[2022-06-05 12:47:02,128] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 57531
+[2022-06-05 13:02:27,366] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 13:03:22,127] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/braniaclms/settings.py changed, reloading.
+[2022-06-05 13:03:22,772] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 13:03:31,085] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/braniaclms/settings.py changed, reloading.
+[2022-06-05 13:03:32,184] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 13:03:33,225] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 58587
+[2022-06-05 13:03:33,609] WARNING django.request (241) Not Found: /favicon.ico
+[2022-06-05 13:04:21,997] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/braniaclms/settings.py changed, reloading.
+[2022-06-05 13:04:22,852] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 13:04:25,570] INFO django.server (187) "GET /mainapp/logs/ HTTP/1.1" 200 69290
+[2022-06-05 13:04:25,707] INFO django.server (187) "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11668
+[2022-06-05 13:04:25,716] INFO django.server (187) "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12222
+[2022-06-05 13:04:25,801] INFO django.server (187) "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4479
+[2022-06-05 13:04:25,823] INFO django.server (187) "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+[2022-06-05 13:04:25,887] WARNING django.request (241) Not Found: /favicon.ico
+[2022-06-05 14:34:47,560] INFO django.server (187) "GET /__debug__/render_panel/?store_id=241eef545e4c4425aa1a9d4224f0cdda&panel_id=SettingsPanel HTTP/1.1" 200 27872
+[2022-06-05 14:36:19,105] INFO django.server (187) "GET /__debug__/render_panel/?store_id=241eef545e4c4425aa1a9d4224f0cdda&panel_id=HeadersPanel HTTP/1.1" 200 3442
+[2022-06-05 14:36:26,481] INFO django.server (187) "GET /__debug__/render_panel/?store_id=241eef545e4c4425aa1a9d4224f0cdda&panel_id=RequestPanel HTTP/1.1" 200 1865
+[2022-06-05 14:36:34,901] INFO django.server (187) "GET /__debug__/render_panel/?store_id=241eef545e4c4425aa1a9d4224f0cdda&panel_id=SQLPanel HTTP/1.1" 200 41449
+[2022-06-05 14:36:52,084] INFO django.server (187) "GET /__debug__/render_panel/?store_id=241eef545e4c4425aa1a9d4224f0cdda&panel_id=StaticFilesPanel HTTP/1.1" 200 68346
+[2022-06-05 14:37:56,753] INFO django.server (187) "GET /__debug__/render_panel/?store_id=241eef545e4c4425aa1a9d4224f0cdda&panel_id=TemplatesPanel HTTP/1.1" 200 214447
+[2022-06-05 14:39:39,460] WARNING django.request (241) Not Found: /favicon.ico
+[2022-06-05 14:39:44,496] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 21710
+[2022-06-05 14:39:44,574] INFO django.server (187) "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11668
+[2022-06-05 14:39:44,580] INFO django.server (187) "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12222
+[2022-06-05 14:39:44,595] INFO django.server (187) "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4479
+[2022-06-05 14:39:44,798] INFO django.server (187) "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+[2022-06-05 14:39:44,855] WARNING django.request (241) Not Found: /favicon.ico
+[2022-06-05 14:39:46,382] INFO django.server (187) "GET /__debug__/render_panel/?store_id=d9e41ce31e394cb2aea2616e6a04587f&panel_id=SQLPanel HTTP/1.1" 200 84777
+[2022-06-05 14:41:11,262] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/urls.py changed, reloading.
+[2022-06-05 14:41:12,683] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 14:41:37,975] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/urls.py changed, reloading.
+[2022-06-05 14:41:39,034] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 14:42:04,238] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/urls.py changed, reloading.
+[2022-06-05 14:42:04,981] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 14:42:13,782] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/urls.py changed, reloading.
+[2022-06-05 14:42:14,850] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 14:42:24,579] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/urls.py changed, reloading.
+[2022-06-05 14:42:25,452] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 14:42:42,282] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/urls.py changed, reloading.
+[2022-06-05 14:42:43,295] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 14:43:38,238] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/braniaclms/settings.py changed, reloading.
+[2022-06-05 14:48:10,532] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 14:48:13,372] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 21710
+[2022-06-05 14:48:13,922] WARNING django.request (241) Not Found: /favicon.ico
+[2022-06-05 14:48:18,110] INFO django.server (187) "GET /__debug__/render_panel/?store_id=6d68ab43f16a439c8a5c507a4d40d535&panel_id=CachePanel HTTP/1.1" 200 1413
+[2022-06-05 14:48:21,833] INFO django.server (187) "GET /__debug__/render_panel/?store_id=6d68ab43f16a439c8a5c507a4d40d535&panel_id=SQLPanel HTTP/1.1" 200 84774
+[2022-06-05 14:48:24,117] INFO django.server (187) "GET /mainapp/news/ HTTP/1.1" 200 21710
+[2022-06-05 14:50:08,475] INFO django.server (187) "GET /__debug__/render_panel/?store_id=6b4a890190af4cb8bdb09cd99b734ffb&panel_id=TemplatesPanel HTTP/1.1" 200 11261
+[2022-06-05 14:50:10,789] INFO django.server (187) "GET /__debug__/render_panel/?store_id=6b4a890190af4cb8bdb09cd99b734ffb&panel_id=TimerPanel HTTP/1.1" 200 1378
+[2022-06-05 14:50:10,801] INFO django.server (187) "GET /static/debug_toolbar/js/timer.js HTTP/1.1" 200 3395
+[2022-06-05 14:50:29,444] INFO django.server (187) "GET /__debug__/render_panel/?store_id=6b4a890190af4cb8bdb09cd99b734ffb&panel_id=CachePanel HTTP/1.1" 200 1413
+[2022-06-05 14:50:30,203] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/braniaclms/settings.py changed, reloading.
+[2022-06-05 15:04:39,906] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 15:04:44,297] INFO django.server (187) "GET /mainapp/courses/1/detail/ HTTP/1.1" 200 22589
+[2022-06-05 15:04:44,486] WARNING django.server (187) "GET /static/no_image.svg HTTP/1.1" 404 1795
+[2022-06-05 15:04:44,499] INFO django.server (187) "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 11668
+[2022-06-05 15:04:44,551] INFO django.server (187) "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[2022-06-05 15:04:44,614] INFO django.server (187) "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+[2022-06-05 15:04:44,617] INFO django.server (187) "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+[2022-06-05 15:04:48,317] INFO django.server (187) "GET /mainapp/courses/1/detail/ HTTP/1.1" 200 25790
+[2022-06-05 15:04:48,416] WARNING django.server (187) "GET /static/no_image.svg HTTP/1.1" 404 1795
+[2022-06-05 15:05:26,830] INFO django.server (187) "GET /__debug__/render_panel/?store_id=13030e5d80154706bf7c466cf375ac30&panel_id=CachePanel HTTP/1.1" 200 4681
+[2022-06-05 15:05:33,634] INFO django.server (187) "GET /mainapp/courses/1/detail/ HTTP/1.1" 200 25790
+[2022-06-05 15:05:33,736] WARNING django.server (187) "GET /static/no_image.svg HTTP/1.1" 404 1795
+[2022-06-05 15:05:35,441] INFO django.server (187) "GET /__debug__/render_panel/?store_id=0ae41e53dbda4c599236dabcc6a08880&panel_id=CachePanel HTTP/1.1" 200 4680
+[2022-06-05 15:07:58,433] INFO django.utils.autoreload (266) /home/uralfox/Документы/Образование/GeekBrains/Django/ДЗ/braniaclms/mainapp/views.py changed, reloading.
+[2022-06-05 15:07:59,543] INFO django.utils.autoreload (677) Watching for file changes with StatReloader
+[2022-06-05 15:12:29,025] INFO django.server (187) "GET /mainapp/contacts/ HTTP/1.1" 200 21570
