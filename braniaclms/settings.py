@@ -9,13 +9,16 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
+import os
 from pathlib import Path
+from dotenv import load_dotenv # работа с виртуальным окружением подкладывай файлик .env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 import django.core.mail.backends.filebased
 import django_redis.cache
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+load_dotenv(BASE_DIR / '.env')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
@@ -24,9 +27,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-y*h(5l20b)7@gl1*=7)=*r45oo-jkl25lvk-3+8yrz%zxh@@cz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True if os.getenv('DEBUG') == 'True' else False
 
 ALLOWED_HOSTS = ['*']
+
+ENV_TYPE = os.getenv('ENV_TYPE', 'prod')
 
 if DEBUG:
     INTERNAL_IPS = [
@@ -91,12 +96,23 @@ WSGI_APPLICATION = 'braniaclms.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if ENV_TYPE == 'local':
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
     }
-}
+else:
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'lms',
+            'USER': 'postgres'
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
@@ -131,10 +147,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
-STATICFILES_DIRS = [
-    BASE_DIR / 'static',
-]
+if ENV_TYPE == 'local':
+    # Работа со статикой локально
+    STATICFILES_DIRS = [
+        BASE_DIR / 'static',
+    ]
+else:
+    # Работа со статикой на сервере
+    STATIC_ROOT = BASE_DIR / 'static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
@@ -153,13 +173,13 @@ LOGOUT_REDIRECT_URL = 'mainapp:main_page'
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
-AUTHENTICATIONS_BACKENDS = (
+AUTHENTICATION_BACKENDS = (
     'social_core.backends.github.GithubOAuth2',
     'django.contrib.auth.backends.ModelBackend',
 )
 
-SOCIAL_AUTH_GITHUB_KEY = '62430eb53f96e3cd220b'
-SOCIAL_AUTH_GITHUB_SECRET = '015e0ee81ca59ceed76cbd377883c2d015d2912e'
+SOCIAL_AUTH_GITHUB_KEY = os.getenv("GITHUB_KEY")
+SOCIAL_AUTH_GITHUB_SECRET = os.getenv("GITHUB_SECRET")
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
